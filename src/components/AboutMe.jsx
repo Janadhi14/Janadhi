@@ -9,7 +9,7 @@ function AboutMe() {
         - I love problem solving and creating. 🤔
       </p>
       <p className="fade-up" style={{ animationDelay: '0.6s' }}>
-        - I'm a life long learner with a Degree in Computer Science and Biomedical Science from the University of Otago. 👨🏽‍🎓
+        - I'm a life long learner with a Bachelors Degree in Biomedical Science and currently completing my Degree in Computer Science at the University of Otago. 👨🏽‍🎓
       </p>
       <p className="fade-up" style={{ animationDelay: '0.9s' }}>
         - Deeply engaged with exploring the convergence of Artificial Intelligence and Cybersecurity. 🤖🪪      
