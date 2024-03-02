@@ -1247,7 +1247,6 @@ body {
   animation: border-move 15s linear infinite forwards;
   /* Only use border-move animation */
   margin-top: -0vh;
-  margin-left: 20vw;
   background: url('https://avatars.githubusercontent.com/u/100277240?v=4') no-repeat;
   /* Replace 'your-image-url.jpg' with the actual image URL */
   background-size: cover;
