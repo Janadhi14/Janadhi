@@ -714,7 +714,7 @@ div.skill-image {
 }
 
 .subtitles {
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 80px;
   text-align: center;
   animation: fadeIn 1.5s ease forwards;
@@ -1246,7 +1246,6 @@ body {
   color: #000000;
   animation: border-move 15s linear infinite forwards;
   /* Only use border-move animation */
-  margin-top: -0vh;
   background: url('https://avatars.githubusercontent.com/u/100277240?v=4') no-repeat;
   /* Replace 'your-image-url.jpg' with the actual image URL */
   background-size: cover;
@@ -1325,12 +1324,16 @@ body {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 800px) {
   .j {
     margin-top: 200px;
     height: 200px;
     width: 220px;
     margin-left: -50px;
 
+  }
+
+  .subtitles {
+    margin-top: 50px;
   }
 }
