@@ -4,9 +4,7 @@ import '../App.css'; // Or the relevant CSS file
 function AboutMe() {
   return (
     <section className="about-me">
-      <div class="j">
-        <div class="moving_shape"></div>
-      </div> 
+      
       <h2 className="subtitles">Hello World!!</h2>
 
       <p className="fade-up" style={{ animationDelay: '0.3s' }}>

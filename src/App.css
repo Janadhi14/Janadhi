@@ -128,7 +128,7 @@ footer {
 .portfolio-item h3 {
   margin-top: 0.5rem;
   color: var(--text);
-  
+
 }
 
 .portfolio-item p {
@@ -216,7 +216,7 @@ body.dark-mode {
   margin-left: 90%;
   border-radius: 15px;
   margin-top: -500px;
-  
+
 
 }
 
@@ -233,7 +233,7 @@ body.dark-mode {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  
+
 }
 
 
@@ -243,6 +243,7 @@ body.dark-mode {
   margin-top: 15px;
 
 }
+
 .portfolio-item h3 {
   margin: 10px;
 
@@ -411,12 +412,12 @@ body.dark-mode {
 /* pagation */
 
 .pagination {
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 0;
-  
+
 }
 
 .pagination button {
@@ -454,8 +455,13 @@ body.dark-mode {
 
 /* fade in for myProjects */
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .fade-in {
@@ -466,28 +472,56 @@ body.dark-mode {
 }
 
 /* Apply the animation delay based on a data attribute */
-.fade-in[data-index="0"] { animation-delay: 0s; }
-.fade-in[data-index="1"] { animation-delay: 0.15s; }
-.fade-in[data-index="2"] { animation-delay: 0.16s; }
-.fade-in[data-index="3"] { animation-delay: 0.17s; }
-.fade-in[data-index="4"] { animation-delay: 0.18s; }
-.fade-in[data-index="5"] { animation-delay: 0.19s; }
-.fade-in[data-index="6"] { animation-delay: 0.20s; }
-.fade-in[data-index="7"] { animation-delay: 0.11s; }
+.fade-in[data-index="0"] {
+  animation-delay: 0s;
+}
+
+.fade-in[data-index="1"] {
+  animation-delay: 0.15s;
+}
+
+.fade-in[data-index="2"] {
+  animation-delay: 0.16s;
+}
+
+.fade-in[data-index="3"] {
+  animation-delay: 0.17s;
+}
+
+.fade-in[data-index="4"] {
+  animation-delay: 0.18s;
+}
+
+.fade-in[data-index="5"] {
+  animation-delay: 0.19s;
+}
+
+.fade-in[data-index="6"] {
+  animation-delay: 0.20s;
+}
+
+.fade-in[data-index="7"] {
+  animation-delay: 0.11s;
+}
+
 /* Continue for as many items as you have, or use JavaScript to set the delay dynamically */
 
 
 
 
 .skill-image {
-  width: 100%; /* Adjust as needed */
-  height: auto; /* Ensure the image scales with the width */
-  margin-bottom: 10px; /* Space between image and text */
+  width: 100%;
+  /* Adjust as needed */
+  height: auto;
+  /* Ensure the image scales with the width */
+  margin-bottom: 10px;
+  /* Space between image and text */
   text-align: center;
   width: 80px;
   height: 80px;
   border-radius: 10px;
-  text-align: center; /* Center the content */
+  text-align: center;
+  /* Center the content */
 }
 
 /* Ensure the skills stack on smaller screens */
@@ -497,24 +531,29 @@ body.dark-mode {
   }
 
   .skills-grid {
-    grid-template-columns: 1fr; /* Stack the items on smaller screens */
+    grid-template-columns: 1fr;
+    /* Stack the items on smaller screens */
   }
 }
 
-.backend-skills{
+.backend-skills {
   text-align: center;
-  animation: fadeIn 1.5s ease forwards; /* Animation to fade in */
+  animation: fadeIn 1.5s ease forwards;
+  /* Animation to fade in */
 
 }
 
 .pagination button {
   margin-top: 10px;
-  font-size: 24px; /* Adjust this value as needed */
+  font-size: 24px;
+  /* Adjust this value as needed */
   /* Other styling as needed */
 }
-.frontend-skills{
+
+.frontend-skills {
   text-align: center;
-  animation: fadeIn 1.5s ease forwards; /* Animation to fade in */
+  animation: fadeIn 1.5s ease forwards;
+  /* Animation to fade in */
 
 }
 
@@ -524,8 +563,10 @@ body.dark-mode {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px); /* Start slightly lower */
+    transform: translateY(20px);
+    /* Start slightly lower */
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -539,8 +580,10 @@ body.dark-mode {
   .skills-container {
     flex-direction: column;
   }
+
   .skills-grid {
-    grid-template-columns: 1fr; /* Stack the items on smaller screens */
+    grid-template-columns: 1fr;
+    /* Stack the items on smaller screens */
   }
 }
 
@@ -550,50 +593,70 @@ body.dark-mode {
 .skills-container {
   display: flex;
   justify-content: flex-start;
-  gap: 30%; /* Adjust the gap as needed */
+  gap: 30%;
+  /* Adjust the gap as needed */
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Creates a 2 column grid */
-  gap: 30px; /* Space between grid items */
+  grid-template-columns: repeat(2, 1fr);
+  /* Creates a 2 column grid */
+  gap: 30px;
+  /* Space between grid items */
 }
 
 .skill-item {
-  text-align: center; /* Center the content */
-  opacity: 0; /* Start with the item invisible */
-  animation: fadeIn 1.5s ease forwards; /* Animation to fade in */
+  text-align: center;
+  /* Center the content */
+  opacity: 0;
+  /* Start with the item invisible */
+  animation: fadeIn 1.5s ease forwards;
+  /* Animation to fade in */
   /* Animation will be delayed based on the index of the skill */
 }
 
 .skill-image {
-  width: 100%; /* Adjust as needed */
-  height: auto; /* Ensure the image scales with the width */
-  margin-bottom: 10px; /* Space between image and text */
+  width: 100%;
+  /* Adjust as needed */
+  height: auto;
+  /* Ensure the image scales with the width */
+  margin-bottom: 10px;
+  /* Space between image and text */
 }
 
 
 .skill-image {
   margin-top: 30px;
-  width: 80px; /* Define a fixed width */
-  height: 80px; /* Define a fixed height */
-  object-fit: fill; /* This will cover the area without stretching the image */
-  border-radius: 15px; /* This will create rounded borders */
+  width: 80px;
+  /* Define a fixed width */
+  height: 80px;
+  /* Define a fixed height */
+  object-fit: fill;
+  /* This will cover the area without stretching the image */
+  border-radius: 15px;
+  /* This will create rounded borders */
   align-content: center;
-  transition: transform 2s; /* Smooth transition for the transform property */
-  display: block; /* To ensure images are block-level for transform */
-  perspective: 1000px; /* Adds perspective to the rotation */
-  transform-style: preserve-3d; /* Allows children to position in 3D space */
-  
+  transition: transform 2s;
+  /* Smooth transition for the transform property */
+  display: block;
+  /* To ensure images are block-level for transform */
+  perspective: 1000px;
+  /* Adds perspective to the rotation */
+  transform-style: preserve-3d;
+  /* Allows children to position in 3D space */
+
 }
+
 .skill-image:hover {
-  animation: spin-3d 3s infinite linear; /* Apply the spin-3d animation when hovering */
+  animation: spin-3d 3s infinite linear;
+  /* Apply the spin-3d animation when hovering */
 }
 
 @keyframes spin-3d {
   from {
     transform: rotateY(0deg);
   }
+
   to {
     transform: rotateY(360deg);
   }
@@ -601,55 +664,64 @@ body.dark-mode {
 
 .skills-container {
   display: flex;
-  gap: 30px; /* Adjust the gap as needed */
+  gap: 30px;
+  /* Adjust the gap as needed */
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .frontend-skills,
 .backend-skills {
-  flex: 1; /* This will make sure both sections take up equal space */
+  flex: 1;
+  /* This will make sure both sections take up equal space */
   display: flex;
   flex-direction: column;
-  align-items: center; /* This centers the content vertically */
+  align-items: center;
+  /* This centers the content vertically */
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Creates a 2 column grid */
-  gap: 0px; /* Space between grid items */
-  width: 100%; /* Ensures the grid takes up the full width of its parent */
-  
+  grid-template-columns: repeat(2, 1fr);
+  /* Creates a 2 column grid */
+  gap: 0px;
+  /* Space between grid items */
+  width: 100%;
+  /* Ensures the grid takes up the full width of its parent */
+
 }
 
-div.skill-image{
+div.skill-image {
   align-items: center;
 
 }
 
 .skill-item {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center; 
-  
+  text-align: center;
+
 }
+
 .frontend-skills,
 .backend-skills {
-  border: 1px solid rgb(175, 172, 172); /* Adds a thin red border */
+  border: 1px solid rgb(175, 172, 172);
+  /* Adds a thin red border */
   border-radius: 15px;
 }
 
-.subtitles{
-  margin-top: 500px ;
+.subtitles {
+  margin-top: 0px;
   margin-bottom: 80px;
   text-align: center;
-  animation: fadeIn 1.5s ease forwards; /* Animation to fade in */
-  }
+  animation: fadeIn 1.5s ease forwards;
+  /* Animation to fade in */
+}
 
 .portfolio-item {
-  transition: box-shadow 3s ease; 
+  transition: box-shadow 3s ease;
 }
 
 
@@ -659,10 +731,13 @@ div.skill-image{
   justify-content: space-between;
 }
 
-.education-section, .certificates-section {
-  animation: fadeIn 1.5s ease forwards; /* Animation to fade in */
+.education-section,
+.certificates-section {
+  animation: fadeIn 1.5s ease forwards;
+  /* Animation to fade in */
   flex: 1;
-  margin: 0 20px; /* Add spacing between the sections */
+  margin: 0 20px;
+  /* Add spacing between the sections */
 }
 
 .timeline {
@@ -682,7 +757,8 @@ div.skill-image{
   background-color: #8c8c8c;
   width: 1px;
   height: 100%;
-  left: 8px; /* Adjust this value to align with the center of your dots */
+  left: 8px;
+  /* Adjust this value to align with the center of your dots */
   position: absolute;
 }
 
@@ -690,7 +766,8 @@ div.skill-image{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-left: 20px; /* Adjust spacing from the line */
+  padding-left: 20px;
+  /* Adjust spacing from the line */
 }
 
 .timeline-period {
@@ -704,11 +781,14 @@ div.skill-image{
 .timeline-period::after {
   content: '';
   background-color: #919191;
-  width: 15px; /* Size of the dot */
-  height: 15px; /* Size of the dot */
+  width: 15px;
+  /* Size of the dot */
+  height: 15px;
+  /* Size of the dot */
   border-radius: 60%;
   position: absolute;
-  left: -38px; /* Adjust to position the dot correctly */
+  left: -38px;
+  /* Adjust to position the dot correctly */
   top: -210%;
   transform: translateY(-50%);
 }
@@ -738,26 +818,35 @@ div.skill-image{
 
 .certificate-item {
   display: flex;
-  align-items: center; /* Align image and text vertically */
-  margin-bottom: 20px; /* Space between items */
+  align-items: center;
+  /* Align image and text vertically */
+  margin-bottom: 20px;
+  /* Space between items */
   border-radius: 10px;
 }
 
 .certificate-image {
-  width: 80px; /* Fixed width for images */
-  height: 80px; /* Fixed height for images */
-  object-fit: cover; /* Cover the area of the element without stretching */
-  border-radius: 10px; /* Rounded corners for images */
-  margin-right: 20px; /* Space between the image and the text */
+  width: 80px;
+  /* Fixed width for images */
+  height: 80px;
+  /* Fixed height for images */
+  object-fit: cover;
+  /* Cover the area of the element without stretching */
+  border-radius: 10px;
+  /* Rounded corners for images */
+  margin-right: 20px;
+  /* Space between the image and the text */
 }
 
 .certificate-info {
-  flex-grow: 1; /* Take up the remaining space */
+  flex-grow: 1;
+  /* Take up the remaining space */
   /* Add additional styling for the text container */
 }
 
 .certificates-list {
-  animation: fadeIn 2s ease forwards; /* Animation to fade in */
+  animation: fadeIn 2s ease forwards;
+  /* Animation to fade in */
 
   list-style: none;
   padding: 0;
@@ -765,18 +854,25 @@ div.skill-image{
 }
 
 .certificate-item {
-  
+
   display: flex;
-  align-items: center; /* Align image and text vertically */
-  margin-bottom: 20px; /* Space between items */
+  align-items: center;
+  /* Align image and text vertically */
+  margin-bottom: 20px;
+  /* Space between items */
 }
 
 .certificate-image {
-  width: 80px; /* Fixed width for images */
-  height: 80px; /* Fixed height for images */
-  object-fit: cover; /* Cover the area of the element without stretching */
-  border-radius: 10px; /* Rounded corners for images */
-  margin-right: 20px; /* Space between the image and the text */
+  width: 80px;
+  /* Fixed width for images */
+  height: 80px;
+  /* Fixed height for images */
+  object-fit: cover;
+  /* Cover the area of the element without stretching */
+  border-radius: 10px;
+  /* Rounded corners for images */
+  margin-right: 20px;
+  /* Space between the image and the text */
 }
 
 @keyframes fadeInUp {
@@ -784,6 +880,7 @@ div.skill-image{
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -791,8 +888,10 @@ div.skill-image{
 }
 
 .certificate-item {
-  opacity: 0; /* Start with the item invisible */
-  animation: fadeInUp 0.5s ease forwards; /* Animation to fade in */
+  opacity: 0;
+  /* Start with the item invisible */
+  animation: fadeInUp 0.5s ease forwards;
+  /* Animation to fade in */
   /* No delay specified here, it will be set inline in the style attribute */
 }
 
@@ -801,6 +900,7 @@ div.skill-image{
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -808,16 +908,20 @@ div.skill-image{
 }
 
 .timeline-item {
-  opacity: 0; /* Start with the item invisible */
-  animation: fadeInUp 0.5s ease forwards; /* Animation to fade in */
+  opacity: 0;
+  /* Start with the item invisible */
+  animation: fadeInUp 0.5s ease forwards;
+  /* Animation to fade in */
   /* No delay specified here, it will be set inline in the style attribute */
 }
 
 
 .footer form {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
-  gap: 1rem; /* Space between columns */
+  grid-template-columns: 1fr 1fr;
+  /* Two equal columns */
+  gap: 1rem;
+  /* Space between columns */
 }
 
 .form-group {
@@ -844,10 +948,12 @@ div.skill-image{
 }
 
 .form-group textarea {
-  height: 13.5vh; /* Adjust height as needed */
+  height: 13.5vh;
+  /* Adjust height as needed */
   resize: vertical;
   font-size: 18px;
 }
+
 .form-group button {
   font-size: medium;
   background-color: var(--button-color);
@@ -856,7 +962,7 @@ div.skill-image{
   border-radius: 10px;
   height: 4vh;
   width: 8vw;
-margin-left: 95%;
+  margin-left: 95%;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-bottom: 50pxs;
@@ -869,6 +975,7 @@ margin-left: 95%;
 .form-group button:hover {
   background-color: var(--button-hover-color);
 }
+
 body.light-mode .form-group input,
 body.light-mode .form-group textarea {
   background-color: var(--input-bg-light);
@@ -885,7 +992,8 @@ body.dark-mode .form-group input,
 body.dark-mode .form-group textarea {
   background-color: var(--input-bg-dark);
   color: var(--input-text-dark);
-  border-color: var(--text-dark); /* Adjust if you have a specific border color for dark mode */
+  border-color: var(--text-dark);
+  /* Adjust if you have a specific border color for dark mode */
 }
 
 body.dark-mode .form-group button {
@@ -896,13 +1004,16 @@ body.dark-mode .form-group button {
 body.dark-mode .form-group button:hover {
   background-color: var(--button-hover-color);
 }
+
 body.light-mode .form-group label {
-  color: var(--text-light); /* Text color for light mode */
+  color: var(--text-light);
+  /* Text color for light mode */
 }
 
 /* Dark mode styles for labels */
 body.dark-mode .form-group label {
-  color: var(--text-dark); /* Text color for dark mode */
+  color: var(--text-dark);
+  /* Text color for dark mode */
 }
 
 /* heading  */
@@ -921,8 +1032,10 @@ body.dark-mode .typing-animation {
 @keyframes fadeInFromSide {
   from {
     opacity: 0;
-    transform: translateX(-100px); /* Adjust for desired side and distance */
+    transform: translateX(-100px);
+    /* Adjust for desired side and distance */
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -931,7 +1044,8 @@ body.dark-mode .typing-animation {
 
 .fade-in-side {
   opacity: 0;
-  transform: translateX(-30px); /* Initial state */
+  transform: translateX(-30px);
+  /* Initial state */
   transition: opacity 0.3s ease-out, transform 0.3s ease-out;
 }
 
@@ -940,33 +1054,48 @@ body.dark-mode .typing-animation {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .fade-in {
   animation: fadeIn 1s ease forwards;
-  opacity: 0; /* Start hidden */
+  opacity: 0;
+  /* Start hidden */
 }
 
 .resume-download-container {
   text-align: center;
-  margin-top: 20px; /* Adjust the margin as needed */
+  margin-top: 20px;
+  /* Adjust the margin as needed */
   border-color: #8c8c8c
-
 }
 
 .resume-download-button {
   display: inline-block;
-  background-color: var(--background); /* Button color */
+  background-color: var(--background);
+  /* Button color */
   color: var(--input-text-dark);
-  padding: 10px 20px; /* Adjust padding as needed */
-  border-radius: 5px; /* Rounded corners for the button */
-  text-decoration: none; /* Remove underline from link */
-  font-size: 16px; /* Adjust font size as needed */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  padding: 10px 20px;
+  /* Adjust padding as needed */
+  border-radius: 5px;
+  /* Rounded corners for the button */
+  text-decoration: none;
+  /* Remove underline from link */
+  font-size: 16px;
+  /* Adjust font size as needed */
+  transition: background-color 0.3s;
+  /* Smooth transition for hover effect */
   margin-bottom: 40px;
-  border: 2px solid #333333; /* Add a border */
+  border: 2px solid #333333;
+  /* Add a border */
 
 }
 
@@ -974,12 +1103,14 @@ body.dark-mode .typing-animation {
 
 
 .resume-download-button:hover {
-  background-color: #5e5e5e; /* Color when hovering over the button */
+  background-color: #5e5e5e;
+  /* Color when hovering over the button */
 }
 
 
 :root {
-  --transition-time: 0.3s; /* Define a variable for transition time */
+  --transition-time: 0.3s;
+  /* Define a variable for transition time */
 }
 
 body {
@@ -988,7 +1119,11 @@ body {
 }
 
 /* Add transitions to other elements that should change with theme */
-.typing-animation, .sub-title, .footer, .portfolio-item, .social-links img {
+.typing-animation,
+.sub-title,
+.footer,
+.portfolio-item,
+.social-links img {
   transition: color var(--transition-time), background-color var(--transition-time), box-shadow var(--transition-time);
   /* Add other properties as needed */
 }
@@ -999,8 +1134,15 @@ body {
 }
 
 @keyframes blinkCursor {
-  from, to { border-color: transparent; }
-  50% { border-color: var(--background); }
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: var(--background);
+  }
 }
 
 .typing-animation {
@@ -1009,14 +1151,20 @@ body {
   overflow: hidden;
   margin-left: -20px;
   /* Removed the width restriction to allow natural text flow */
-  border-right: 2px solid black; /* This will represent the cursor */
-  animation: typing 2s steps(14, end) forwards, /* Typing effect */
-             blinkCursor 1s step-end infinite; /* Blinking cursor effect */
+  border-right: 2px solid black;
+  /* This will represent the cursor */
+  animation: typing 2s steps(14, end) forwards,
+    /* Typing effect */
+    blinkCursor 1s step-end infinite;
+  /* Blinking cursor effect */
 }
+
 .header-container {
   display: flex;
-  justify-content: space-between; /* Align children to each end */
-  align-items: center; /* Center children vertically */
+  justify-content: space-between;
+  /* Align children to each end */
+  align-items: center;
+  /* Center children vertically */
   padding: 1rem;
 }
 
@@ -1025,8 +1173,10 @@ body {
 .dark-mode-toggle {
   animation: fadeIn 3s ease-out forwards;
   /* Existing styles */
-  margin-top: 0%; /* Adjusted to remove negative margin */
-  margin-left: 100px; /* Adjusted to remove margin */
+  margin-top: 0%;
+  /* Adjusted to remove negative margin */
+  margin-left: 100px;
+  /* Adjusted to remove margin */
 }
 
 /* Ensure the SVG fills the button appropriately */
@@ -1041,73 +1191,145 @@ body {
 @media (max-width: 768px) {
   .portfolio-item {
     /* Adjust the font size and padding for smaller screens */
-    font-size: smaller; /* Adjust as needed */
-    padding: 1rem; /* Adjust as needed */
+    font-size: smaller;
+    /* Adjust as needed */
+    padding: 1rem;
+    /* Adjust as needed */
   }
 
   .portfolio-item h3 {
     /* Adjust the heading size for smaller screens */
-    font-size: medium; /* Adjust as needed */
+    font-size: medium;
+    /* Adjust as needed */
   }
 
   .portfolio-item p {
     /* Adjust the paragraph size for smaller screens */
-    font-size: small; /* Adjust as needed */
-    overflow-wrap: break-word; /* Ensures long words will wrap and not overflow */
+    font-size: small;
+    /* Adjust as needed */
+    overflow-wrap: break-word;
+    /* Ensures long words will wrap and not overflow */
   }
 }
 
 /* Further adjustments for even smaller screens */
 @media (max-width: 480px) {
   .portfolio-item {
-    font-size: smaller; /* Adjust as needed */
-    padding: 0.5rem; /* Adjust as needed */
+    font-size: smaller;
+    /* Adjust as needed */
+    padding: 0.5rem;
+    /* Adjust as needed */
   }
 
   .portfolio-item h3 {
-    font-size: smaller; /* Adjust as needed */
+    font-size: smaller;
+    /* Adjust as needed */
   }
 
   .portfolio-item p {
-    font-size: smaller; /* Adjust as needed */
+    font-size: smaller;
+    /* Adjust as needed */
   }
 }
 
 
 
 .moving_shape {
-  width: 100%;
-  height: 100%;
+  width: 25vh;
+  height: 25vh;
   background-color: rgba(0, 0, 0, 0);
   background-repeat: repeat;
   background-size: auto auto;
-  border: 2px solid #000000; /* Set the initial border */
+  border: 2px solid var(--background-light);
+  /* Set the initial border */
   color: #000000;
-  animation: border-move 15s linear infinite forwards; /* Only use border-move animation */
+  animation: border-move 15s linear infinite forwards;
+  /* Only use border-move animation */
+  margin-top: -0vh;
+  margin-left: 20vw;
+  background: url('src/assets/images/potrait.jpeg') no-repeat;
+  /* Replace 'your-image-url.jpg' with the actual image URL */
+  background-size: cover;
+  background-position: top -2px center;
+  background-blend-mode: multiply;
 }
 
 .j {
-  height: 340px;
+  height: 370px;
   width: 370px;
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
 
-@keyframes bg-move{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}
+@keyframes bg-move {
+  0% {
+    background-position: 0 50%
+  }
 
-@keyframes border-move{
-  0%{ border-radius:51% 49% 34% 66% / 39% 66% 34% 61%; }
-  10%{ border-radius:39% 61% 38% 62% / 53% 54% 46% 47%; }
-  20%{ border-radius:56% 44% 52% 48% / 57% 35% 65% 43%; }
-  30%{ border-radius:41% 59% 45% 55% / 33% 56% 44% 67%; }
-  40%{ border-radius:46% 54% 60% 40% / 55% 74% 26% 45%; }
-  50%{ border-radius:44% 56% 22% 78% / 31% 74% 26% 69%; }
-  60%{ border-radius:31% 69% 32% 68% / 31% 71% 29% 69%; }
-  70%{ border-radius:44% 56% 60% 40% / 63% 36% 64% 37%; }
-  80%{ border-radius:46% 54% 38% 62% / 44% 48% 52% 56%; }
-  90%{ border-radius:66% 34% 57% 43% / 49% 51% 49% 51%; }
-  100%{ border-radius:51% 49% 34% 66% / 39% 66% 34% 61%; }
+  50% {
+    background-position: 100% 50%
+  }
+
+  to {
+    background-position: 0 50%
+  }
+}
+
+@keyframes border-move {
+  0% {
+    border-radius: 51% 49% 34% 66% / 39% 66% 34% 61%;
+  }
+
+  10% {
+    border-radius: 39% 61% 38% 62% / 53% 54% 46% 47%;
+  }
+
+  20% {
+    border-radius: 56% 44% 52% 48% / 57% 35% 65% 43%;
+  }
+
+  30% {
+    border-radius: 41% 59% 45% 55% / 33% 56% 44% 67%;
+  }
+
+  40% {
+    border-radius: 46% 54% 60% 40% / 55% 74% 26% 45%;
+  }
+
+  50% {
+    border-radius: 44% 56% 22% 78% / 31% 74% 26% 69%;
+  }
+
+  60% {
+    border-radius: 31% 69% 32% 68% / 31% 71% 29% 69%;
+  }
+
+  70% {
+    border-radius: 44% 56% 60% 40% / 63% 36% 64% 37%;
+  }
+
+  80% {
+    border-radius: 46% 54% 38% 62% / 44% 48% 52% 56%;
+  }
+
+  90% {
+    border-radius: 66% 34% 57% 43% / 49% 51% 49% 51%;
+  }
+
+  100% {
+    border-radius: 51% 49% 34% 66% / 39% 66% 34% 61%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .j {
+    margin-top: 200px;
+    height: 200px;
+    width: 220px;
+    margin-left: -50px;
+
+  }
 }
