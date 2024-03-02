@@ -1,3 +1,4 @@
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -1247,7 +1248,7 @@ body {
   /* Only use border-move animation */
   margin-top: -0vh;
   margin-left: 20vw;
-  background: url('src/assets/images/potrait.jpeg') no-repeat;
+  background: url('https://avatars.githubusercontent.com/u/100277240?v=4') no-repeat;
   /* Replace 'your-image-url.jpg' with the actual image URL */
   background-size: cover;
   background-position: top -2px center;
