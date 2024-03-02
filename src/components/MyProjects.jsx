@@ -3,6 +3,7 @@ import '../App.css'; // Or the relevant CSS file
 import andieImage from '../assets/images/andie1.png';
 import birdImage from '../assets/images/birds1.png';
 import backend from '../assets/images/backend.png';
+import projectLib from '../assets/images/projectLib.png';
 
 function MyProjects() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -51,8 +52,8 @@ function MyProjects() {
 
 const portfolioItems = [
   {
-    title: 'Greenlands Cafe Website',
-    description: 'A simple static website for Greenlands Cafe and Restaurant',
+    title: 'Puts/Calls Strat',
+    description: 'A simple Puts to Calls ratio based trading Strat',
     imageUrl: 'url-to-image1.jpg',
     projectUrl: 'url-to-project1'
   },
@@ -94,10 +95,10 @@ const portfolioItems = [
     projectUrl: 'url-to-project2'
   },
   {
-    title: 'Project 8 ',
-    description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
-    projectUrl: 'url-to-project2'
+    title: 'Project: Liberate Owheo ',
+    description: '2d Unity Game developed as part of the COSC360 paper at the University of Otago.',
+    imageUrl: projectLib,
+    projectUrl: 'https://github.com/Janadhi14/ProjectLiberateOwheo'
   },
   {
     title: 'Project 9 ',

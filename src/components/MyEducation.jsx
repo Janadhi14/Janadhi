@@ -38,8 +38,8 @@ const certificates = [
     imageUrl: 'https://steelbluemedia.com/wp-content/uploads/2019/06/new-google-favicon-512.png'
   },
   {
-    name: 'Google Cyber Security Professional Certificate',
-    imageUrl: 'https://steelbluemedia.com/wp-content/uploads/2019/06/new-google-favicon-512.png'
+    name: 'New Zealand Full Drivers Licence',
+    imageUrl: 'https://yt3.googleusercontent.com/ytc/AIf8zZQ7UgUNPzA9kc1YgVWO2AOMqCQHWaq-OtHgaUXy=s900-c-k-c0x00ffffff-no-rj'
   },
  
 ];

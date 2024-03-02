@@ -99,16 +99,10 @@ function App() {
         
         <MyProjects />
         </div>
-        
-
-       
-        
 
         <div className="fade-in-side">
         <Skills/>
         </div>
-        
-      
 
         <div className="fade-in-side">
         <h2 class ="subtitles" >Contact Me</h2>
