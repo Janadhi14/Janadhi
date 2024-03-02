@@ -84,8 +84,11 @@ function App() {
             <a href="https://github.com/janadhi14" target="_blank" rel="noopener noreferrer">
               <img src={githubIcon} alt="GitHub" />
             </a>
+
+            
             </div>
           </div>
+          
           <AboutMe />
           
           <h2 class ="subtitles" >My Education</h2>
