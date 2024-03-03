@@ -751,6 +751,7 @@ div.skill-image {
 }
 
 .timeline-item {
+  padding-top: 10px;
   padding-left: 20px;
   margin-bottom: 10px;
   position: relative;
@@ -758,6 +759,7 @@ div.skill-image {
 
 .timeline-item::before {
   content: '';
+  margin-top: 30px;
   background-color: #8c8c8c;
   width: 1px;
   height: 100%;
@@ -793,7 +795,7 @@ div.skill-image {
   position: absolute;
   left: -38px;
   /* Adjust to position the dot correctly */
-  top: -210%;
+  top: -130%;
   transform: translateY(-50%);
 }
 
@@ -1344,12 +1346,12 @@ body {
     
   }
   .timeline-period::after{
-    top: -200%;
+    top: -120%;
   }
 }
 
 @media screen and (max-width: 592px) {
   .timeline-period::after{
-    top: -280%;
+    top: -200%;
   }
 }
