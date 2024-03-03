@@ -1336,4 +1336,7 @@ body {
   .subtitles {
     margin-top: 50px;
   }
+  .timeline-period::after{
+    top: -270%;
+  }
 }

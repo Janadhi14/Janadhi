@@ -73,7 +73,7 @@ const portfolioItems = [
     title: 'Birds Of Aotearoa Backend',
     description: ' Backend for Birds Of Aotearoa, uses JSON to store the data of birds. edit, view and add functionality to allow for mainpualtion of the JSON data.',
     imageUrl: backend,
-    projectUrl: 'url-to-project2'
+    projectUrl: 'https://github.com/Janadhi14/BirdsOfAotearoaBackend'
   },
 
   {
