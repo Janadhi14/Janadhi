@@ -4,14 +4,20 @@ import Skills from './components/Skills'; // Adjust the path according to your f
 import MyProjects from './components/MyProjects'; // Adjust the path according to your file structure
 import MyEducation from './components/MyEducation';
 import Footer from './components/Footer';
+
 import './App.css';
 
 
 import linkedinIcon from './assets/images/linkedin.png';
 import githubIcon from './assets/images/github.png';
+import linkedinIconDark from './assets/images/linkdinwhite.png'; // Import dark mode image
+import githubIconDark from './assets/images/githubwhite.png'; // Import dark mode image
+
 
 function App() {
-  const [theme, setTheme] = useState('light'); // Ensures initial state is 'light'
+  const [theme, setTheme] = useState('light');
+  const [linkedinImage, setLinkedinImage] = useState(linkedinIcon);
+  const [githubImage, setGithubImage] = useState(githubIcon);
 
 
   const toggleTheme = () => {
@@ -19,8 +25,16 @@ function App() {
       setTheme('dark');
       document.body.classList.add('dark-mode');
       document.body.classList.remove('light-mode');
+      setLinkedinImage(linkedinIconDark); // Change image for dark mode
+      setGithubImage(githubIconDark); // Change image for dark mode
+      document.body.classList.add('dark-mode');
+      document.body.classList.remove('light-mode');
     } else {
       setTheme('light');
+      document.body.classList.add('light-mode');
+      document.body.classList.remove('dark-mode');
+      setLinkedinImage(linkedinIcon); // Change image for light mode
+      setGithubImage(githubIcon); // Change image for light mode
       document.body.classList.add('light-mode');
       document.body.classList.remove('dark-mode');
     }
@@ -75,22 +89,20 @@ function App() {
         </section>
         Aspiring:<p className="sub-title"> {phrases[currentPhrase]}</p>
         <div className="social-links">
-          <div className="linkdinlo">
-            <a href="https://www.linkedin.com/in/jan-dissanayake-b7775a20b/" target="_blank" rel="noopener noreferrer">
-              <img src={linkedinIcon} alt="LinkedIn" />
-            </a>
-          </div>
-          <div className="githublo">
-            <a href="https://github.com/janadhi14" target="_blank" rel="noopener noreferrer">
-              <img src={githubIcon} alt="GitHub" />
-            </a>
-
-           
-          </div>
+        <div className="linkdinlo">
+          <a href="https://www.linkedin.com/in/jan-dissanayake-b7775a20b/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedinImage} alt="LinkedIn" />
+          </a>
         </div>
+        <div className="githublo">
+          <a href="https://github.com/janadhi14" target="_blank" rel="noopener noreferrer">
+            <img src={githubImage} alt="GitHub" />
+          </a>
+        </div>
+      </div>
         <div class="j">
-              <div class="moving_shape"></div>
-            </div>
+          <div class="moving_shape"></div>
+        </div>
         <AboutMe />
 
         <h2 class="subtitles" >My Education</h2>

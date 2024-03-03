@@ -5,6 +5,7 @@ import birdImage from '../assets/images/birds1.png';
 import backend from '../assets/images/backend.png';
 import projectLib from '../assets/images/projectLib.png';
 
+
 function MyProjects() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 8;
