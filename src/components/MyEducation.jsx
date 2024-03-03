@@ -18,11 +18,14 @@ const educationTimeline = [
 ];
 
 const certificates = [
-  
+  {
+    name: 'Machine Learning Specialization',
+    imageUrl: 'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F125559383%2F317212851579%2F1%2Foriginal.20210208-232017?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2246%2C2246&s=40aa0fb13fe40ce86241ae7b8fc8caea'
+  },
   {
     name: 'Google IT Support Professional Certificate',
     imageUrl: 'https://steelbluemedia.com/wp-content/uploads/2019/06/new-google-favicon-512.png'
-    
+    // link to certification
   },
   {
     name: 'Google Cyber Security Professional Certificate',
@@ -36,6 +39,7 @@ const certificates = [
     name: 'New Zealand Full Drivers Licence',
     imageUrl: 'https://yt3.googleusercontent.com/ytc/AIf8zZQ7UgUNPzA9kc1YgVWO2AOMqCQHWaq-OtHgaUXy=s900-c-k-c0x00ffffff-no-rj'
   },
+  
  
 ];
 
