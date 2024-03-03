@@ -105,17 +105,23 @@ function App() {
         </div>
         <AboutMe />
 
-        <h2 class="subtitles" >My Experience</h2>
-        <div className="resume-download-container subtitles">
-          <a href='/downloads/CV.pdf' download="JanDisResume.pdf" className="resume-download-button">Technical Resumé</a>
-        </div>
-        <MyEducation />
-
-        <div className="fade-in-side">
+        <div className="myprojects">
           <h2 class="subtitles" >My Projects</h2>
 
           <MyProjects />
         </div>
+
+        <h2 class="fade-in-side" >My Experience</h2>
+        
+        <div class="fade-in-side" >
+        <div className="resume-download-container subtitles">
+          <a href='/downloads/CV.pdf' download="JanDisResume.pdf" className="resume-download-button">Technical Resumé</a>
+        </div>
+        <MyEducation />
+        </div>
+
+       
+        
 
         <div className="fade-in-side">
           <Skills />

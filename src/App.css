@@ -9,6 +9,9 @@
 
 }
 
+h2{
+  text-align: center;
+}
 
 :root {
   --background-light: #ffffff;
@@ -1045,6 +1048,7 @@ body.dark-mode .typing-animation {
 
 .fade-in-side {
   opacity: 0;
+  text-align: ;
   transform: translateX(-30px);
   /* Initial state */
   transition: opacity 0.3s ease-out, transform 0.3s ease-out;
