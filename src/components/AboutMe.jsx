@@ -14,7 +14,7 @@ function AboutMe() {
         - I'm a life long learner with a Bachelors Degree in Biomedical Science and currently completing my Degree in Computer Science at the University of Otago. 📚👨🏽‍🎓
       </p>
       <p className="fade-up" style={{ animationDelay: '1.2s' }}>
-        - Deeply engaged with exploring the convergence of Machine Learning and Software Engineering. 🤖🪪
+        - Deeply interested in exploring the convergence of Machine Learning and Software Engineering. 🤖🪪
       </p>
     </section>
   );
