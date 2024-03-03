@@ -71,7 +71,7 @@ function Skills() {
   return (
     <section className="fade-in-slide">
       
-      <h2 >My Stack</h2>
+      <h2 class = 'subtitles'>My Stack</h2>
 
       <div className="skills-container">
         <div className="frontend-skills">

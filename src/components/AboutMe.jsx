@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <section className="about-me">
       
-      <h2 className="subtitles">Hello World!!</h2>
+      <h2 className='fadeup' >Hello World!!</h2>
 
       <p className="fade-up" style={{ animationDelay: '0.4s' }}>
         - I love problem solving and coding. 💆🏽‍♂️
@@ -13,7 +13,7 @@ function AboutMe() {
       <p className="fade-up" style={{ animationDelay: '0.8s' }}>
         - I'm a life long learner with a Bachelors Degree in Biomedical Science and currently completing my Degree in Computer Science at the University of Otago. 📚👨🏽‍🎓
       </p>
-      <p className="fade-up" style={{ animationDelay: '0.12s' }}>
+      <p className="fade-up" style={{ animationDelay: '1.2s' }}>
         - Deeply engaged with exploring the convergence of Machine Learning and Software Engineering. 🤖🪪
       </p>
     </section>

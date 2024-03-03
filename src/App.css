@@ -717,8 +717,8 @@ div.skill-image {
 }
 
 .subtitles {
-  margin-top: 10px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+  margin-top: 60px;
   text-align: center;
   animation: fadeIn 1.5s ease forwards;
   /* Animation to fade in */
@@ -1048,7 +1048,7 @@ body.dark-mode .typing-animation {
 
 .fade-in-side {
   opacity: 0;
-  text-align: ;
+  text-align: left;
   transform: translateX(-30px);
   /* Initial state */
   transition: opacity 0.3s ease-out, transform 0.3s ease-out;
@@ -1338,7 +1338,8 @@ body {
   }
 
   .subtitles {
-    margin-top: 50px;
+    margin-top: 80px;
+    
   }
   .timeline-period::after{
     top: -270%;
