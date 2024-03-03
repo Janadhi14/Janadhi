@@ -61,7 +61,7 @@ function App() {
 
 
 
-  const phrases = ["Software Dev", "ML Engineer", "CyberSecurity Analyst"];
+  const phrases = [ "Software Developer", "ML Engineer","Quant Developer", "Data Scientist", ];
   const [currentPhrase, setCurrentPhrase] = useState(0);
 
   useEffect(() => {
@@ -105,7 +105,7 @@ function App() {
         </div>
         <AboutMe />
 
-        <h2 class="subtitles" >My Education</h2>
+        <h2 class="subtitles" >My Experience</h2>
         <div className="resume-download-container subtitles">
           <a href='/downloads/CV.pdf' download="JanDisResume.pdf" className="resume-download-button">Technical Resumé</a>
         </div>
