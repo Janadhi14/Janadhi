@@ -110,16 +110,14 @@ function App() {
           <MyProjects />
         </div>
 
+        <div class="fade-in-side" ><h2 class="subtitles" >My Experience</h2>
+        </div>
+        
         <div class="fade-in-side" >
-          <h2 class="subtitles" >My Experience</h2>
-          <div className="resume-download-container subtitles">
+        
+        <div className="resume-download-container subtitles">
           <a href='/downloads/CV.pdf' download="JanDisResume.pdf" className="resume-download-button">Technical Resumé</a>
         </div>
-        </div>
-        
-        
-        
-        
         <MyEducation />
         </div>
 
@@ -138,7 +136,7 @@ function App() {
 
 
       </div>
-    
+    </div>
   );
 }
 
