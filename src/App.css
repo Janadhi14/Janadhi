@@ -515,15 +515,14 @@ body.dark-mode {
 
 
 .skill-image {
-  width: 100%;
+  width: 80%;
   /* Adjust as needed */
   height: auto;
   /* Ensure the image scales with the width */
   margin-bottom: 10px;
   /* Space between image and text */
   text-align: center;
-  width: 80px;
-  height: 80px;
+
   border-radius: 10px;
   text-align: center;
   /* Center the content */
@@ -621,7 +620,7 @@ body.dark-mode {
 }
 
 .skill-image {
-  width: 100%;
+  width: 80%;
   /* Adjust as needed */
   height: auto;
   /* Ensure the image scales with the width */
@@ -632,7 +631,7 @@ body.dark-mode {
 
 .skill-image {
   margin-top: 30px;
-  width: 80px;
+  width: 60px;
   /* Define a fixed width */
   height: 80px;
   /* Define a fixed height */
@@ -810,8 +809,8 @@ div.skill-image {
 
 .skill-image {
   text-align: center;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 73px;
   border-radius: 10px;
 }
 

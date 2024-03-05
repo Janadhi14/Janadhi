@@ -1,5 +1,11 @@
 import React from 'react';
 import '../App.css'; // Or the relevant CSS file
+import tensorflow from '../assets/images/Tensorflow_logo.svg.png';
+import pyTorch from '../assets/images/pytorch.png';
+import sklearn from '../assets/images/sklearn.png';
+import numpy from '../assets/images/numpy-1.svg';
+import pandas from '../assets/images/pandas.svg'
+
 
 // Example data for Frontend and Backend skills with image URLs
 const frontendSkills = [
@@ -51,21 +57,26 @@ const backendSkills = [
 
 const MLstack = [
   {
-    name: 'Node.js',
-    imageUrl: 'https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png'
+    name: 'TensorFlow',
+    imageUrl: tensorflow
   },
   {
-    name: 'Java',
-    imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/free-java-59-1174952.png?f=webp&w=512'
+    name: 'Pytorch',
+    imageUrl: pyTorch
   },
   {
-    name: 'Java',
-    imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/free-java-59-1174952.png?f=webp&w=512'
+    name: 'SkLearn',
+    imageUrl: sklearn
   },
   {
-    name: 'SQL',
-    imageUrl: 'https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.svg'
+    name: 'Pandas',
+    imageUrl: pandas
   },
+  {
+    name: 'Numpy',
+    imageUrl: numpy
+  },
+  
 ];
 function Skills() {
   return (
@@ -100,7 +111,7 @@ function Skills() {
         <div className="frontend-skills">
           <h3>ML Frameworks</h3>
           <div className="skills-grid">
-            {frontendSkills.map((skill, index) => (
+            {MLstack.map((skill, index) => (
               <div key={index} className="skill-item">
                 <img src={skill.imageUrl} alt={skill.name} className="skill-image" />
                 <p>{skill.name}</p>
