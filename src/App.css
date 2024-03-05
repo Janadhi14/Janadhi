@@ -970,7 +970,6 @@ div.skill-image {
   border: none;
   border-radius: 10px;
   height: 4vh;
-  width: 8vw;
   margin-left: 95%;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -1356,11 +1355,17 @@ body {
 
 @media screen and (max-width: 592px) {
   .timeline-period::after{
-    top: -200%;
+    top: -115%;
   }
 }
 
 
+@media screen and (max-width: 289px) {
+  .timeline-period::after{
+    top: -200%;
+  }
+  
+}
 .education-container {
   display: flex;
   justify-content: space-between;
@@ -1402,4 +1407,10 @@ body {
   justify-content: space-between;
 }
 
-
+/* im janadhi  */
+@media screen and (max-width: 388px) {
+  .typing-animation{
+    margin-left: 0px;
+  }
+  
+}
