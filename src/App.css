@@ -1390,7 +1390,7 @@ body {
 }
 
 
-
+/* smaller screens moving the dark mode button */
 @media (max-width: 770px) {
   .header-container {
     flex-direction: column;
@@ -1408,3 +1408,4 @@ body {
     margin-left: 30%;
   }
 }
+
