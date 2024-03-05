@@ -115,7 +115,7 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
   .portfolio-item {
-    max-height: 30vh;
+    max-height: 35vh;
     /* Adjust height for smaller screens */
 
   }
@@ -123,7 +123,7 @@ footer {
 
 @media (max-width: 480px) {
   .portfolio-item {
-    max-height: 25vh;
+    max-height: 33vh;
     /* Further adjust for very small screens */
   }
 }
@@ -1114,7 +1114,7 @@ body.dark-mode .typing-animation {
 
 .resume-download-button:hover {
   background-color: #5e5e5e;
-  /* Color when hovering over the button */
+  
 }
 
 
@@ -1247,6 +1247,7 @@ body {
 .moving_shape {
   width: 25vh;
   height: 25vh;
+  margin-left: 2vw;
   background-color: rgba(0, 0, 0, 0);
   background-repeat: repeat;
   background-size: auto auto;
@@ -1267,7 +1268,7 @@ body {
   height: 370px;
   width: 370px;
   position: relative;
-  margin-top: 10vh;
+  margin-top: 15vh;
   margin-bottom: -10vh;
   left: 50%;
   top: 50%;
@@ -1356,5 +1357,54 @@ body {
 @media screen and (max-width: 592px) {
   .timeline-period::after{
     top: -200%;
+  }
+}
+
+
+
+
+.education-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 770px) {
+  .education-container {
+    flex-direction: column;
+  }
+
+  .education-section, .certificates-section {
+    width: 100%;
+    margin-top: 40px;
+  
+  }
+
+}
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+@media (max-width: 770px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dark-mode-toggle {
+    order: 2; 
+    margin-top: 20px; 
+    margin-left:-15px;
+    margin-bottom: 5px;
+  }
+
+  .moving_shape{
+    margin-left: 30%;
   }
 }
