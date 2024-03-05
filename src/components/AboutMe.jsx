@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <section className="about-me">
       
-      <h2 className='fadeup' >Hello World!!</h2>
+      <h2 className='subtitles' >Hello World!!</h2>
 
       <p className="fade-up" style={{ animationDelay: '0.4s' }}>
         - I love problem solving and coding. 💆🏽‍♂️

@@ -78,7 +78,7 @@ function App() {
 
       <div className="content-layer">
         <section className="header-container">
-          <h1><span className="typing-animation">I'm Jan.</span></h1>
+          <h1><span className="typing-animation">I'm Janadhi.</span></h1>
           <button onClick={toggleTheme} id="dark-mode-toggle" className="dark-mode-toggle">
             <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
               <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)" />
@@ -90,7 +90,7 @@ function App() {
         Aspiring:<p className="sub-title"> {phrases[currentPhrase]}</p>
         <div className="social-links">
         <div className="linkdinlo">
-          <a href="https://www.linkedin.com/in/jan-dissanayake-b7775a20b/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/janadhi-dissanayake-b7775a20b/" target="_blank" rel="noopener noreferrer">
             <img src={linkedinImage} alt="LinkedIn" />
           </a>
         </div>

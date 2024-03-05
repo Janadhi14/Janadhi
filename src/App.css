@@ -11,6 +11,7 @@
 
 h2{
   text-align: center;
+
 }
 
 :root {
@@ -51,8 +52,8 @@ body {
 
   font-size: 50px;
   height: auto;
-  animation: typing 2s steps(12, end) forwards,
-    colorChange 1s steps(12, end) forwards,
+  animation: typing 2.5s steps(5, end) forwards,
+    colorChange 1s steps(5, end) forwards,
     blinkCursor 1s step-end infinite;
 
 }
@@ -63,7 +64,7 @@ body {
   }
 
   to {
-    width: 8ch;
+    width: 12ch;
   }
 
   /* Adjust according to the length of your text */
@@ -1160,7 +1161,7 @@ body {
   /* Removed the width restriction to allow natural text flow */
   border-right: 2px solid black;
   /* This will represent the cursor */
-  animation: typing 2s steps(14, end) forwards,
+  animation: typing 2s steps(12, end) forwards,
     /* Typing effect */
     blinkCursor 1s step-end infinite;
   /* Blinking cursor effect */
