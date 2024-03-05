@@ -960,6 +960,9 @@ div.skill-image {
   font-size: 18px;
 }
 
+.form-group input{
+  font-size: 18px;
+}
 .form-group button {
   font-size: medium;
   background-color: var(--button-color);
