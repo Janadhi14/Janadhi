@@ -16,6 +16,10 @@ function AboutMe() {
       <p className="fade-up" style={{ animationDelay: '1.2s' }}>
         - Deeply interested in exploring the convergence of Machine Learning and Software Engineering. 🤖🪪
       </p>
+
+      <p className="fade-up" style={{ animationDelay: '1.2s' }}>
+        - Outside of my studies I am an avid cricket player, guitarist and sprinter. 🏏🎸🏃🏽‍♂️
+      </p>
     </section>
   );
 }
