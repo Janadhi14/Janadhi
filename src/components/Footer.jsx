@@ -9,7 +9,7 @@ function Footer() {
 
   return (
     <section className="footer">
-      <form onSubmit={handleSubmit}>
+      <form action = "https://formspree.io/f/mzbnvpgk" method="POST" >
         <div className="form-group-container">
           <div className="form-group">
             <label htmlFor="name">Name:</label>
