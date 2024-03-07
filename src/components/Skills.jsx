@@ -5,6 +5,11 @@ import pyTorch from '../assets/images/pytorch.png';
 import sklearn from '../assets/images/sklearn.png';
 import numpy from '../assets/images/numpy-1.svg';
 import pandas from '../assets/images/pandas.svg'
+import keras from '../assets/images/keras.png'
+import vite from '../assets/images/vite.png'
+import python from '../assets/images/python.png'
+import csharp from '../assets/images/csharp.png'
+import c from '../assets/images/c.png'
 
 
 // Example data for Frontend and Backend skills with image URLs
@@ -25,6 +30,11 @@ const frontendSkills = [
     name: 'React',
     imageUrl: 'https://www.svgrepo.com/show/452092/react.svg'
   },
+  {
+    name: 'vite',
+    imageUrl: vite
+  },
+
    {
     name: 'Angular',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png'
@@ -38,20 +48,29 @@ const frontendSkills = [
 
 const backendSkills = [
   {
-    name: 'Node.js',
-    imageUrl: 'https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png'
+    name: 'Python',
+    imageUrl: python
   },
   {
     name: 'Java',
     imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/free-java-59-1174952.png?f=webp&w=512'
   },
   {
-    name: 'Java',
-    imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/free-java-59-1174952.png?f=webp&w=512'
+    name: 'C#',
+    imageUrl: csharp
+  }, 
+  {
+    name: 'C',
+    imageUrl:c
   },
+
   {
     name: 'SQL',
     imageUrl: 'https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.svg'
+  },
+  {
+    name: 'Node.js',
+    imageUrl: 'https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png'
   },
 ];
 
@@ -59,6 +78,10 @@ const MLstack = [
   {
     name: 'TensorFlow',
     imageUrl: tensorflow
+  },
+  {
+    name: 'Keras',
+    imageUrl: keras
   },
   {
     name: 'Pytorch',
@@ -77,12 +100,13 @@ const MLstack = [
     imageUrl: numpy
   },
   
+  
 ];
 function Skills() {
   return (
     <section className="fade-in-slide">
       
-      <h2 class = 'subtitles'>My Stack</h2>
+      <h2 class = 'subtitles'>My Skills</h2>
 
       <div className="skills-container">
         <div className="frontend-skills">
