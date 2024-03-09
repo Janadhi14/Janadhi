@@ -4,6 +4,7 @@ import andieImage from '../assets/images/andie1.png';
 import birdImage from '../assets/images/birds1.png';
 import backend from '../assets/images/backend.png';
 import projectLib from '../assets/images/projectLib.png';
+import placeholder from '../assets/images/placeholderpic.png';
 
 
 function MyProjects() {
@@ -55,25 +56,25 @@ const portfolioItems = [
   {
     title: 'Puts/Calls Strat',
     description: 'A simple Puts to Calls ratio based trading Strat',
-    imageUrl: 'url-to-image1.jpg',
+    imageUrl: placeholder,
     projectUrl: 'url-to-project1'
   },
   {
     title: 'QuantStrat',
     description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
+    imageUrl: placeholder,
     projectUrl: 'url-to-project2'
   },
   {
     title: 'Crypto Trading bot',
     description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
+    imageUrl: placeholder,
     projectUrl: 'url-to-project2'
   },
   {
     title: 'Options trading strat ',
     description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
+    imageUrl:placeholder,
     projectUrl: 'url-to-project2'
   },
   {
