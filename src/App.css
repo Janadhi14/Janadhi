@@ -988,13 +988,14 @@ div.skill-image {
   border: none;
   border-radius: 10px;
   height: 4vh;
-  margin-left: 95%;
+  padding-left: 40px;
+  padding-right:40px;
+  margin-left: 88%;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-bottom: 50pxs;
+  margin-bottom: 50px;
   text-align: center;
 }
-
 
 
 
@@ -1238,6 +1239,10 @@ body {
     overflow-wrap: break-word;
     /* Ensures long words will wrap and not overflow */
   }
+  .form-group button{
+    margin-left: 80%;
+  }
+
 }
 
 /* Further adjustments for even smaller screens */
@@ -1258,6 +1263,10 @@ body {
     font-size: small;
     /* Adjust as needed */
   }
+  .form-group button{
+    margin-left: 65%;
+  }
+
 }
 
 
