@@ -134,7 +134,6 @@ footer {
 @media (max-width: 480px) {
   .portfolio-item {
     max-height: 33vh;
-    /* Further adjust for very small screens */
   }
 }
 
