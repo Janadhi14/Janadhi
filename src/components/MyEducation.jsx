@@ -46,7 +46,7 @@ const certificates = [
 function MyEducation() {
   const delayIncrement = 0.2;
   return (
-    <section className="about-me">
+    <section >
        <div className="education-container">
         <div className="education-section">
           <h3>My Education</h3>

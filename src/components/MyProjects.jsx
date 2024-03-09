@@ -59,25 +59,6 @@ const portfolioItems = [
     projectUrl: 'url-to-project1'
   },
   {
-    title: 'Birds Of Aotearoa',
-    description: 'Birds Of Aotearoa is a simple static HTML, CSS and JS website that uses JSON data of native Birds from New Zealand to display them.',
-    imageUrl: birdImage,
-    projectUrl: 'https://github.com/Janadhi14/BirdsOfAotearoa'
-  },
-  {
-    title: 'Andie',
-    description: 'ANDIE is an Non-destructive Java-based application designed to offer a range of image editing and processing features through an intuitive Graphical User Interface (GUI).',
-    imageUrl: andieImage,
-    projectUrl: 'https://github.com/Janadhi14/Andie'
-  },
-  {
-    title: 'Birds Of Aotearoa Backend',
-    description: ' Backend for Birds Of Aotearoa, uses JSON to store the data of birds. edit, view and add functionality to allow for mainpualtion of the JSON data.',
-    imageUrl: backend,
-    projectUrl: 'https://github.com/Janadhi14/BirdsOfAotearoaBackend'
-  },
-
-  {
     title: 'QuantStrat',
     description: 'Description of Project 2',
     imageUrl: 'url-to-image2.jpg',
@@ -96,57 +77,30 @@ const portfolioItems = [
     projectUrl: 'url-to-project2'
   },
   {
+    title: 'Birds Of Aotearoa',
+    description: 'Birds Of Aotearoa is a simple static HTML, CSS and JS website that uses JSON data of native Birds from New Zealand to display them.',
+    imageUrl: birdImage,
+    projectUrl: 'https://github.com/Janadhi14/BirdsOfAotearoa'
+  },
+  {
+    title: 'Andie',
+    description: 'ANDIE is an Non-destructive Java-based application designed to offer a range of image editing and processing features through an intuitive Graphical User Interface (GUI).',
+    imageUrl: andieImage,
+    projectUrl: 'https://github.com/Janadhi14/Andie'
+  },
+  {
+    title: 'Birds Of Aotearoa Backend',
+    description: ' Backend for Birds Of Aotearoa, uses JSON to store the data of birds. edit, view and add functionality to allow for mainpualtion of the JSON data.',
+    imageUrl: backend,
+    projectUrl: 'https://github.com/Janadhi14/BirdsOfAotearoaBackend'
+  },
+  {
     title: 'Project: Liberate Owheo ',
     description: '2d Unity Game developed as part of the COSC360 paper at the University of Otago.',
     imageUrl: projectLib,
     projectUrl: 'https://github.com/Janadhi14/ProjectLiberateOwheo'
   },
-  {
-    title: 'Project 9 ',
-    description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
-    projectUrl: 'url-to-project2'
-  },
-  {
-    title: 'Project 10 ',
-    description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
-    projectUrl: 'url-to-project2'
-  },
-  {
-    title: 'Project 11 ',
-    description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
-    projectUrl: 'url-to-project2'
-  },
-  {
-    title: 'Project 12 ',
-    description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
-    projectUrl: 'url-to-project2'
-  },
-  {
-    title: 'Project 13 ',
-    description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
-    projectUrl: 'url-to-project2'
-  },{
-    title: 'Project 14 ',
-    description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
-    projectUrl: 'url-to-project2'
-  },{
-    title: 'Project 15 ',
-    description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
-    projectUrl: 'url-to-project2'
-  },
-  {
-    title: 'Project 16 ',
-    description: 'Description of Project 2',
-    imageUrl: 'url-to-image2.jpg',
-    projectUrl: 'url-to-project2'
-  },
+  
 
 ];
 

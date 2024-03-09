@@ -2,12 +2,22 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  font-size: medium;
-
-
+  padding-left: 20rem;
+  padding-right: 20rem;
+  font-size: small;
 
 }
+
+@media (max-width: 1430px) {
+  #root {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  
+  }
+}
+
+
+
 
 h2{
   text-align: center;
@@ -191,15 +201,24 @@ footer {
 
 .about-me p {
   opacity: 0;
+  margin-bottom:20px;
   /* Start with paragraphs hidden */
   animation: fadeIn .8s ease-out forwards;
   /* Forwards will keep the paragraph at final state (visible) after animation ends */
+
 }
 
 
+.about-me{
+  margin-top: -300px;
+}
 
-
-
+@media (max-width: 801px ) {
+  .about-me{
+    margin-top: 0px;
+  }
+  
+}
 
 /* darkmode */
 
@@ -957,11 +976,11 @@ div.skill-image {
   height: 13.5vh;
   /* Adjust height as needed */
   resize: vertical;
-  font-size: 18px;
+  font-size: small;
 }
 
 .form-group input{
-  font-size: 18px;
+  font-size: small;
 }
 .form-group button {
   font-size: medium;
@@ -1200,7 +1219,7 @@ body {
 @media (max-width: 768px) {
   .portfolio-item {
     /* Adjust the font size and padding for smaller screens */
-    font-size: smaller;
+    font-size: small;
     /* Adjust as needed */
     padding: 1rem;
     /* Adjust as needed */
@@ -1224,7 +1243,7 @@ body {
 /* Further adjustments for even smaller screens */
 @media (max-width: 480px) {
   .portfolio-item {
-    font-size: smaller;
+    font-size: small;
     /* Adjust as needed */
     padding: 0.5rem;
     /* Adjust as needed */
@@ -1236,7 +1255,7 @@ body {
   }
 
   .portfolio-item p {
-    font-size: smaller;
+    font-size: small;
     /* Adjust as needed */
   }
 }
@@ -1414,3 +1433,4 @@ body {
   }
   
 }
+
