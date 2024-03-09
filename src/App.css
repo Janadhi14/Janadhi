@@ -813,7 +813,7 @@ div.skill-image {
   position: absolute;
   left: -38px;
   /* Adjust to position the dot correctly */
-  top: -130%;
+  top: -100%;
   transform: translateY(-50%);
 }
 
@@ -1373,7 +1373,7 @@ body {
 
 @media screen and (max-width: 592px) {
   .timeline-period::after{
-    top: -115%;
+    top: -100%;
   }
 }
 
