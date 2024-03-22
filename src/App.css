@@ -1287,6 +1287,7 @@ body {
   background-size: cover;
   background-position: top -2px center;
   background-blend-mode: multiply;
+  margin-left: 5vh;
 }
 /*  */
 
@@ -1422,7 +1423,7 @@ body {
   }
 
   .moving_shape{
-    margin-left: 30%;
+    margin-left: 20%;
   }
 
 }
