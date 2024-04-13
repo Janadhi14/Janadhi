@@ -4,8 +4,12 @@ import andieImage from '../assets/images/andie1.png';
 import birdImage from '../assets/images/birds1.png';
 import backend from '../assets/images/backend.png';
 import projectLib from '../assets/images/projectLib.png';
-import placeholder from '../assets/images/placeholderpic.png';
+import pcPic from '../assets/images/pcPic.jpg';
+import puts_calls from '../assets/images/puts_calls.png';
+import z_score from '../assets/images/Z-score.png';
+import spxgold from '../assets/images/spxgold.png';
 
+import placeholderpic from '../assets/images/placeholderpic.png';
 
 function MyProjects() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -54,34 +58,22 @@ function MyProjects() {
 
 const portfolioItems = [
   {
-    title: 'Puts/Calls Strat',
-    description: 'A simple Puts to Calls ratio based trading Strat',
-    imageUrl: placeholder,
-    projectUrl: 'url-to-project1'
-  },
-  {
-    title: 'QuantStrat',
-    description: 'Description of Project 2',
-    imageUrl: placeholder,
-    projectUrl: 'url-to-project2'
-  },
-  {
-    title: 'Crypto Trading bot',
-    description: 'Description of Project 2',
-    imageUrl: placeholder,
-    projectUrl: 'url-to-project2'
-  },
-  {
-    title: 'Options trading strat ',
-    description: 'Description of Project 2',
-    imageUrl:placeholder,
-    projectUrl: 'url-to-project2'
+    title: 'Puts/Calls ratio script',
+    description: 'A simple Puts to Calls in pinescript',
+    imageUrl: puts_calls,
+    projectUrl: 'https://github.com/Janadhi14/Quant-Material/blob/master/PC_ratio.pine'
   },
   {
     title: 'Birds Of Aotearoa',
     description: 'Birds Of Aotearoa is a simple static HTML, CSS and JS website that uses JSON data of native Birds from New Zealand to display them.',
     imageUrl: birdImage,
     projectUrl: 'https://github.com/Janadhi14/BirdsOfAotearoa'
+  },
+  {
+    title: 'Z-Score',
+    description: 'Very simple Z-score using pine Script',
+    imageUrl: z_score,
+    projectUrl: 'https://github.com/Janadhi14/OptionPricing'
   },
   {
     title: 'Andie',
@@ -100,6 +92,25 @@ const portfolioItems = [
     description: '2d Unity Game developed as part of the COSC360 paper at the University of Otago.',
     imageUrl: projectLib,
     projectUrl: 'https://github.com/Janadhi14/ProjectLiberateOwheo'
+  },
+  {
+    title: 'Gold/SPX',
+    description: 'Correlation model',
+    imageUrl: spxgold,
+    projectUrl: 'https://github.com/Janadhi14/Algo-trading'
+  },
+  
+  {
+    title: 'Mclellan summation',
+    description: 'Mclellan summation ',
+    imageUrl: placeholderpic,
+    projectUrl: 'https://github.com/Janadhi14/Algo-trading'
+  },
+  {
+    title: 'First PC Build',
+    description: 'First PC build on a <$2500 budget',
+    imageUrl:pcPic,
+    projectUrl: 'https://medium.com/@janadhi14/first-pc-build-a9a7756ab9ba'
   },
   
 
