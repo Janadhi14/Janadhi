@@ -5,6 +5,7 @@ import MyProjects from './components/MyProjects'; // Adjust the path according t
 import MyEducation from './components/MyEducation';
 import Footer from './components/Footer';
 
+
 import './App.css';
 
 
@@ -116,7 +117,7 @@ function App() {
         <div class="fade-in-side" >
         
         <div className="resume-download-container subtitles">
-          <a href='/downloads/CV.pdf' download="JanDisResume.pdf" className="resume-download-button">Technical Resumé</a>
+          <a href='./downloads/JanadhiCV.pdf' download="JanadhiCV.pdf" className="resume-download-button">Technical Resumé</a>
         </div>
         <MyEducation />
         </div>
