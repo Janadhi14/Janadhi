@@ -62,7 +62,7 @@ function App() {
 
 
 
-  const phrases = [ "Software Developer", "ML Engineer","Quant Developer", "Data Scientist", ];
+  const phrases = [ "Network Engineer", "ML Engineer", "Systems Engineer", "Quant Researcher", ];
   const [currentPhrase, setCurrentPhrase] = useState(0);
 
   useEffect(() => {
