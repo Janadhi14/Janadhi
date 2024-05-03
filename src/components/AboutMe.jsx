@@ -14,7 +14,7 @@ function AboutMe() {
         - I'm a life long learner with a Bachelors Degree in Biomedical Science and currently in my Final Semester of my Degree in Computer Science at the University of Otago. 📚👨🏽‍🎓
       </p>
       <p className="fade-up" style={{ animationDelay: '1.2s' }}>
-        - Deeply interested in exploring the convergence of Network Engineering and Software Engineering. 🤖🪪
+        - Deeply interested in exploring the convergence of Network Engineering and Software. 🤖🪪
       </p>
       <p className="fade-up" style={{ animationDelay: '1.6s' }}>
         - Outside of my Education I am an avid cricket player, guitarist and sprinter. 🏏🎸🏃🏽‍♂️
