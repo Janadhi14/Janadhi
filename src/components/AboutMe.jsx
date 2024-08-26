@@ -11,10 +11,10 @@ function AboutMe() {
         - I love problem solving and finding innovative solutions to complex issues through code. 👨🏽‍💻
       </p>
       <p className="fade-up" style={{ animationDelay: '0.8s' }}>
-        - I'm a life long learner with a Bachelors Degree in Biomedical Science and currently in my Final Semester of my Degree in Computer Science at the University of Otago. 📚👨🏽‍🎓
+        - I'm a life long learner with a Bachelor of Science in Computer Science and a Bachelor of Biomedical Science from the University of Otago. 📚👨🏽‍🎓
       </p>
       <p className="fade-up" style={{ animationDelay: '1.2s' }}>
-        - Deeply interested in exploring the convergence of Network Engineering and Software. 🤖🪪
+        - Deeply interested in exploring the convergence between Cybersecurity and Network Security. 🤖🪪
       </p>
       <p className="fade-up" style={{ animationDelay: '1.6s' }}>
         - Outside of my Education I am an avid cricket player, guitarist and sprinter. 🏏🎸🏃🏽‍♂️
