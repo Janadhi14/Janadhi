@@ -10,6 +10,7 @@ import vite from '../assets/images/vite.png'
 import python from '../assets/images/python.png'
 import csharp from '../assets/images/csharp.png'
 import c from '../assets/images/c.png'
+import node from '../assets/images/node-js.svg'
 
 
 // Example data for Frontend and Backend skills with image URLs
@@ -70,7 +71,7 @@ const backendSkills = [
   },
   {
     name: 'Node.js',
-    imageUrl: 'https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png'
+    imageUrl: node
   },
 ];
 
