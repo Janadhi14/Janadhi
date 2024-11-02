@@ -14,7 +14,7 @@ function AboutMe() {
         - I'm a life long learner with a Bachelor of Science in Computer Science and a Bachelor of Biomedical Science from the University of Otago.📚👨🏽‍🎓
       </p>
       <p className="fade-up" style={{ animationDelay: '1.2s' }}>
-        - Deeply interested in exploring the convergence between Cybersecurity and Network Engineering.🤖🪪
+        - Deeply interested in exploring the convergence between Network Engineering and CyberSecurity.🤖🪪
       </p>
       <p className="fade-up" style={{ animationDelay: '1.6s' }}>
         - Outside of my Education I am an avid cricket player, guitarist and sprinter.🏏🎸🏃🏽‍♂️
